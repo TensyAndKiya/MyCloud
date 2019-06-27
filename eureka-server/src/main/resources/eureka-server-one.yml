@@ -1,0 +1,14 @@
+server:
+  port: 1001
+eureka:
+  server:
+    peer-eureka-nodes-update-interval-ms: 1000 #默认是10分钟即600000，这里为了验证改为10秒
+  instance:
+    hostname: localhost
+    preferIpAddress: true
+  client:
+    registerWithEureka: false
+    fetchRegistry: false
+    serviceUrl:
+      defaultZone:
+        http://localhost:1001/eureka/
