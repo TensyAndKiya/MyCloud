@@ -1,6 +1,11 @@
+server:
+  port: 3001
 spring:
   application:
     name: eureka-client
+  cloud:
+    config:
+      uri: http://localhost:1001
 management:
   endpoints:
     web:
