@@ -1,0 +1,6 @@
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:2001/eureka/
+      #defaultZone: http://localhost:2001/eureka/,http://localhost:2002/eureka/
+      #defaultZone: http://localhost:2001/eureka/,http://localhost:2002/eureka/,http://localhost:2003/eureka/

@@ -3,6 +3,8 @@ server:
 spring:
   application:
     name: eureka-client
+  profiles:
+    active: one
   cloud:
     config:
       uri: http://localhost:1001
